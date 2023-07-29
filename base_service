@@ -1,0 +1,12 @@
+[Unit]
+Description=Service NAME_SERVICE go application
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=2s
+WorkingDirectory=WORK_DIR
+ExecStart=WORK_DIR/NAME_SERVICE
+
+[Install]
+WantedBy=multi-user.target
