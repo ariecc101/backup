@@ -4,7 +4,7 @@ Description=Service NAME_SERVICE go application
 [Service]
 Type=simple
 Restart=always
-RestartSec=2s
+RestartSec=5s
 WorkingDirectory=WORK_DIR
 ExecStart=WORK_DIR/NAME_SERVICE
 
